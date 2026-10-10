@@ -1,0 +1,2062 @@
+@font-face{
+    font-family: PoppinsRegular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: PoppinsMedium;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+
+}
+
+@font-face{
+    font-family: PoppinsBold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face{
+    font-family: PoppinsSemiBold;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: PoppinsLightItalic;
+    src: url(../fonts/Poppins/Poppins-LightItalic.ttf);
+}
+.header .container{
+    width: calc(100% - 200px) ;
+    margin: auto; 
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+ .header .row{
+    width: 100%;
+    align-items: center;
+    justify-content:space-between; 
+    display: flex;
+}
+
+.header .list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+
+}
+
+.header .list li a{
+    color:#5B5B5B;
+    font-family: PoppinsRegular;
+
+}
+
+.header .profile img{ 
+    height: 63px;
+    width: 63px;
+ 
+ }
+
+.header .profile{
+   display: flex;
+   align-items: center;
+   gap: 12px; 
+}
+
+.header .profile p{
+   color: #000000;
+   font-family:PoppinsMedium;
+}
+
+.header .logo img{
+    width: 114px;
+    height: 83px;
+   
+}
+
+/* ****************************************************************************************** */
+
+.section1 .container{
+    background-color: #9DCCFF;
+    width: calc(100% - 200px) ;
+    height: 785px;
+    margin: auto; 
+    overflow: hidden; 
+    padding-top: 52px;
+    margin-bottom: 82px;
+}
+ 
+.section1 .row1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 18px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.section1 .row1 h2{
+    color: #252641;
+    font-family:PoppinsSemiBold ;
+    font-size: 36px;
+}
+
+.section1 .row1 p{
+    color: #49BBBD;
+    font-family: PoppinsBold;
+    font-size: 20px;
+}
+
+.section1 .row2 .cards{
+    width: 100% ;
+    height: 474px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left:32.5px ;
+    padding-right: 33px;
+    overflow: auto;
+}
+
+.section1 .row2 .cards .card{
+    background-color:#FFFFFF ;
+    width: calc((100% - 100px) / 3);
+    height: 474px;
+    border-radius: 20px;
+    padding: 19.6px 21px 12px 20.73px;
+    box-shadow: 0px 18.83px 47.08px rgba(47, 50, 125, 0.1);
+    
+}
+
+.section1 .cards .part1 img{
+    width: 100%;
+    height: 258.38px;
+    margin-bottom: 12.03px;
+    
+}
+
+.section1 .cards .part1 h3{
+    color: #252641;
+    font-family:PoppinsMedium;
+    
+}
+
+.section1 .cards .part2{
+   display: flex;
+   align-items: center;
+   gap: 12px; 
+   margin-top: 10px;
+   margin-bottom: 25px;
+}
+
+.section1 .cards .part2 img{
+   width: 42px;
+   height: 42px;
+}
+.section1 .cards .part2 p{
+   color: #000000;
+    font-family:PoppinsMedium;
+}
+
+.section1 .cards .part3 .rec1{
+    width:100%;
+    height: 8px;
+    background-color: #D9D9D9;
+    border-radius: 2px;
+}
+
+.section1 .cards .part3 .rec2{
+    width:71.4%;
+    height: 8px;
+    background-color: #49BBBD;
+    border-radius: 2px;
+}
+
+.section1 .cards .part3{
+    margin-bottom: 12px;
+}
+
+.section1 .cards .part4{
+    text-align: right;
+    color: #000000;
+    font-family:PoppinsSemiBold;
+    opacity: 0.5;
+}
+
+/* *****************************************************************************************/
+.section2 .container{
+    /* background-color: #d6170d; */
+    width: calc(100% - 220px) ;
+    height: 941px;
+    margin: auto; 
+    overflow: hidden; 
+    margin-bottom: 95px;
+}
+.section2 .container .row1{
+    margin-bottom: 53px;
+}
+.section2 .container .row1 h2{
+    color: #252641;
+    font-family:PoppinsSemiBold ;
+    font-size: 36px;
+}
+
+.section2 .row2 .cards{
+    width: 100% ;
+    height: 377px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44.07px;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+.section2 .row2 .cards .card{
+    background-color:#FFFFFF ;
+    width: calc((100% - 132.21px) / 4);
+    border-radius: 20px;
+    height: 377px;
+    padding-top: 30px;
+    box-shadow: 0px 18.83px 20px rgba(47, 50, 125, 0.1);
+    
+}
+.section2 .row2 .card .part1{
+
+    width: 99.08px;
+    height: 90px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    
+}
+
+/* ما عرفت كيف اخلي الخلفية شفافة وما تصير الاسقونة كمان شفافة وتختفي فسألت شات وحكالي استخدم هاي هلا اانا فاهمتها بس ما اخدنا زيها */
+.section2 .row2 .part1.color1 {
+    background-color: color-mix(in srgb, #d3e3e4 30%, transparent);
+}
+
+.section2 .row2 .part1.color2 {
+    background-color: color-mix(in srgb, #5B72EE 30%, transparent);
+}
+
+.section2 .row2 .part1.color3 {
+    background-color: color-mix(in srgb, #9DCCFF 30%, transparent);
+}
+
+.section2 .row2 .part1.color4 {
+    background-color: color-mix(in srgb, #00CBB8 30%, transparent);
+}
+
+
+.section2 .row2 .card .part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px auto;
+}
+
+.section2 .row2 .card .part2 h3{
+    color: #000000;
+    font-family:PoppinsSemiBold ;
+    font-size: 30px;
+    
+}
+
+.section2 .row2 .card .part3 p{
+    color: #696984;
+    font-family:PoppinsRegular ;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.section2 .row2 .card .part3{
+    margin: 0 20px;
+}
+
+
+
+.section2 .row3 .cards{
+    width: 100% ;
+    height: 377px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44.07px;
+    overflow: auto;
+}
+
+.section2 .row3 .cards .card{
+    background-color:#FFFFFF ;
+    width: calc((100% - 132.21px) / 4);
+    border-radius: 20px;
+    height: 377px;
+    padding-top: 30px;
+    box-shadow: 0px 18.83px 20px rgba(47, 50, 125, 0.1);
+    
+}
+.section2 .row3 .card .part1{
+
+    width: 99.08px;
+    height: 90px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    
+}
+
+/* ما عرفت كيف اخلي الخلفية شفافة وما تصير الاسقونة كمان شفافة وتختفي فسألت شات وحكالي استخدم هاي هلا اانا فاهمتها بس ما اخدنا زيها */
+.section2 .row3 .part1.color1 {
+    background-color: color-mix(in srgb, #d3e3e4 30%, transparent);
+}
+
+.section2 .row3 .part1.color2 {
+    background-color: color-mix(in srgb, #5B72EE 30%, transparent);
+}
+
+.section2 .row3 .part1.color3 {
+    background-color: color-mix(in srgb, #9DCCFF 30%, transparent);
+}
+
+.section2 .row3 .part1.color4 {
+    background-color: color-mix(in srgb, #00CBB8 30%, transparent);
+}
+
+
+.section2 .row3 .card .part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px auto;
+}
+
+.section2 .row3 .card .part2 h3{
+    color: #000000;
+    font-family:PoppinsSemiBold ;
+    font-size: 30px;
+    
+}
+
+.section2 .row3 .card .part3 p{
+    color: #696984;
+    font-family:PoppinsRegular ;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.section2 .row3 .card .part3{
+    margin: 0 20px;
+}
+
+
+/* ************************************************************** */
+.section3 .container{
+    background-color: #9DCCFF;
+    width: calc(100% - 200px) ;
+    height: fit-content;
+    margin: auto; 
+    overflow: hidden; 
+    padding-top: 155px;
+    padding-bottom: 155px;
+    margin-bottom:87px;
+}
+ 
+.section3 .row1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 90px; ;
+    padding-right: 89.84px;
+    padding-bottom: 47px;
+}
+
+.section3 .row1 h2{
+    color: #000000;
+    font-family:PoppinsMedium ;
+    font-size: 30px;
+}
+
+.section3 .row1 p{
+    color: #49BBBD;
+    font-family:PoppinsBold ;
+    font-size: 20px;
+}
+
+.section3 .row2 .cards{
+    width: 100% ;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left:90px ;
+    padding-right: 89.84px;
+    overflow: auto;
+}
+
+.section3 .row2 .cards .card{
+    background-color:#FFFFFF ;
+    width: calc((100% - 150px) / 4);
+    height:fit-content;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 18.83px 47.08px rgba(47, 50, 125, 0.1);
+     
+}
+.section3 .row2 .cards .card .part1{
+    padding-left: 20.88px;
+    padding-right:17.89px ;
+    padding-bottom:20px ;
+     
+}
+.section3 .row2 .cards .card .part1 img{
+    height:239px ;
+    width: 100%;
+}
+
+
+
+
+.section3 .row2 .cards .card .part2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 26.84px;
+    padding-right: 18.89px;
+    padding-bottom: 20px;
+   
+}
+
+.section3 .row2 .cards .card .part21{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+.section3 .row2 .cards .card .part21 p{
+    color: #696984;
+    font-family:PoppinsMedium ;
+    font-size: 14px;
+    
+}
+
+.section3 .row2 .cards .card .part22{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.section3 .row2 .cards .card .part22 p{
+    color: #696984;
+    font-family:PoppinsMedium ;
+    font-size: 14px;
+    
+}
+
+.section3 .row2 .cards .card .part3{
+    padding: 0 22.87px 21px 26.84px;
+
+}
+.section3 .row2 .cards .card .part3 h3{
+     color: #252641;
+    font-family:PoppinsMedium ;
+    font-size: 24px;
+    
+}
+
+.section3 .row2 .cards .card .part4{
+    padding: 0 18.89px 17px 26.84px;
+
+}
+
+.section3 .row2 .cards .card .part4 p{
+   color: #696984;
+    font-family:PoppinsRegular ;
+    font-size: 18px;
+    
+}
+
+.section3 .row2 .cards .card .part5{
+    display: flex;
+    padding: 0 18.89px 34.75px 26.48px;
+    justify-content: space-between;
+
+}
+
+.section3 .row2 .cards .card .part5 .part51{
+    display: flex;
+    gap: 17.68px;
+    align-items: center;
+}
+.section3 .row2 .cards .card .part5 .part51 img{
+    width: 44.11px;
+    height: 44.25px;
+}
+.section3 .row2 .cards .card .part5 .part51 p{
+     color: #000000;
+    font-family:PoppinsMedium ;
+    font-size: 18px;
+  
+}
+
+
+.section3 .row2 .cards .card .part5 .part52{
+    display: flex;
+    gap: 13.92px;
+    align-items:center;
+}
+
+.section3 .row2 .cards .card .part5 .part52 p{
+     color: #000000;
+    font-family:PoppinsLightItalic ;
+    font-size: 18px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  
+}
+
+.section3 .row2 .cards .card .part5 .part52 h4{
+     color: #49BBBD;
+    font-family:PoppinsBold ;
+    font-size: 24px;
+  
+}
+
+
+
+
+/* ************************************************************** */
+.section4 .container{
+    width: calc(100% - 240px) ;
+    height:auto ;
+    margin: auto; 
+    overflow: hidden; 
+    margin-bottom: 90px;
+}
+ 
+.section4 .row1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom: 50px;
+}
+
+.section4 .row1 h2{
+    color: #000000;
+    font-family:PoppinsMedium ;
+    font-size: 30px;
+}
+
+.section4 .row1 p{
+    color: #49BBBD;
+    font-family:PoppinsBold ;
+    font-size: 20px;
+}
+
+.section4 .row2 .cards{
+    width: 100% ;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+    overflow: auto;
+}
+
+.section4 .row2 .cards .card{
+    background-color:#FFFFFF ;
+    width: calc((100% - 162px) / 4);
+    height:auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 18.83px 47.08px rgba(47, 50, 125, 0.1);
+     
+}
+.section4 .row2 .cards .card .part1{
+    padding-left: 22.72px;
+    padding-right:19.48px ;
+    padding-bottom:20px ;
+     
+}
+.section4 .row2 .cards .card .part1 img{
+    height:239px ;
+    width: 100%;
+}
+
+
+
+
+.section4 .row2 .cards .card .part2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 29.21px;
+    padding-right: 20.56px;
+    padding-bottom: 20px;
+   
+}
+
+.section4 .row2 .cards .card .part21{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+   
+}
+
+.section4 .row2 .cards .card .part21 p{
+    color: #696984;
+    font-family:PoppinsMedium ;
+    font-size: 14px;
+    
+}
+
+.section4 .row2 .cards .card .part22{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.section4 .row2 .cards .card .part22 p{
+    color: #696984;
+    font-family:PoppinsMedium ;
+    font-size: 14px;
+    
+}
+
+.section4 .row2 .cards .card .part3{
+    padding: 0 24.89px 21px 29.21px;
+
+}
+.section4 .row2 .cards .card .part3 h3{
+     color: #252641;
+    font-family:PoppinsMedium ;
+    font-size: 24px;
+    
+}
+
+.section4 .row2 .cards .card .part4{
+    padding: 0 20.56px 21px 29.21px;
+
+}
+
+.section4 .row2 .cards .card .part4 p{
+   color: #696984;
+    font-family:PoppinsRegular ;
+    font-size: 18px;
+    
+}
+
+.section4 .row2 .cards .card .part5{
+    display: flex;
+    padding:0 20.56px 34.75px 28.82px;
+    justify-content: space-between;
+
+}
+
+.section4 .row2 .cards .card .part5 .part51{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+}
+.section4 .row2 .cards .card .part5 .part51 img{
+    width: 48px;
+    height: 44.25px;
+}
+.section4 .row2 .cards .card .part5 .part51 p{
+     color: #000000;
+    font-family:PoppinsMedium ;
+    font-size: 18px;
+  
+}
+
+
+.section4 .row2 .cards .card .part5 .part52{
+    display: flex;
+    gap: 15px;
+    align-items:center;
+}
+
+.section4 .row2 .cards .card .part5 .part52 p{
+     color: #000000;
+    font-family:PoppinsLightItalic ;
+    font-size: 18px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  
+}
+
+.section4 .row2 .cards .card .part5 .part52 h4{
+     color: #49BBBD;
+    font-family:PoppinsBold ;
+    font-size: 24px;
+  
+}
+
+.footer .container{
+    background-color: #252641;
+    width: 100% ;
+    height:auto ;
+    margin: auto; 
+    overflow: hidden; 
+}
+
+.footer .row1{
+    display: flex;
+    padding-top: 74px;
+    padding-bottom:  95px ;
+    gap: 81.77px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer .row1 .part1 img{
+    width: 121.07px;
+    height: 83;
+
+}
+
+.footer .row1 .part2{
+    padding-left: 43.54px;
+    border-left: 1px solid #626381;
+}
+
+
+.footer .row1 .part2 h5{
+    color: #FFFFFF;
+    font-family:PoppinsSemiBold ;
+    font-size: 22px;
+}
+
+
+.footer .row2{
+    display: flex;
+    padding-bottom: 20px ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer .row2 h5{
+    color: #B2B3CF;
+    font-family:PoppinsMedium ;
+    font-size: 26px;
+}
+
+
+.footer .row3{
+    display: flex;
+    padding-bottom: 96px ;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+
+}
+
+
+
+.footer .row3 .part1 input{
+    width: 424.8px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 80px;
+    border:1px solid #83839A;
+}
+
+.footer .row3 .part1 input::placeholder{
+    color: #83839A;
+    font-family:PoppinsRegular ;
+    padding-left: 31.86px;
+    font-size: 20px;
+}
+
+.footer .row3 .part2 button{
+    width: 190.1px;
+    height: 60px;
+    background-color:#49BBBD ;
+    border-radius: 60px;
+     color: #FFFFFF;
+    font-family:PoppinsMedium ;
+    font-size: 22px;
+
+}
+
+.footer .row4{
+     display: flex;
+    padding-bottom: 20px ;
+    align-items: center;
+    justify-content: center;
+    gap: 21.24px;
+}
+
+.footer .row4 .part2{
+    padding-left: 21.24px;
+    border-left: 1px solid #626381;
+}
+
+.footer .row4 .part3{
+    padding-left: 21.24px;
+    border-left: 1px solid #626381;
+}
+   
+.footer .row4 h5{
+    color: #B2B3CF;
+    font-family:PoppinsRegular ;
+    font-size: 22px;
+}    
+
+.footer .row5{
+     display: flex;
+    padding-bottom: 40px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .row5 h5{
+    color: #B2B3CF;
+    font-family:PoppinsRegular ;
+    font-size: 22px;
+}
+
+/* *****************************************************************************************/
+@media screen and (min-width:320px) and (max-width:639px){
+.header .container{
+    width: calc(100% - 40px) ;
+    margin: auto; 
+    
+}
+
+.header .list ul{
+    display: none;
+}
+
+.header .profile img{ 
+    height: 31.5px;
+    width: 31.5px;
+}
+
+.header .logo img {
+    width: 57px;
+    height: 41.5px;
+}
+/* ******************************************************* */
+.section1 .container{
+    width: calc(100% - 40px) ;
+}
+.section1 .row1{
+    padding-left: 4.5px;
+    padding-right: 10px;
+
+}
+.section1 .row1 h2{
+    font-size: 15px;
+}
+
+.section1 .row1 p{
+    font-size: 10px;
+}
+
+.section1 .row2 .cards{
+    gap: 10px;
+    padding-left:12.5px ;
+    padding-right: 13px;
+    display: flex;
+    flex-wrap: nowrap;   
+    overflow-x: auto;    
+    overflow-y: hidden;
+
+    
+}
+
+.section1 .row2 .cards .card{
+    width: 100% ;
+    height: 474px;
+    border-radius: 20px;
+    padding: 19.6px 21px 12px 20.73px;
+    flex-shrink: 0;
+}
+/* ************************************************************* */
+.section2 .container{
+    width: calc(100% - 50px) ;
+    height:  fit-content;
+}
+
+.section2 .container .row1 h2{
+
+    font-size: 20px
+}
+
+.section2 .row2{
+    height: fit-content;
+}
+.section2 .row2 .cards{
+    gap: 14.07px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;   
+    overflow-x: auto;    
+    overflow-y: hidden;
+
+}
+
+.section2 .row2 .cards .card{
+    width: 100% ;
+    flex-shrink: 0;
+
+    
+}
+
+.section2 .row2 .card .part2 h3{
+    font-size: 20px;   
+}
+
+.section2 .row2 .card .part3 p{
+    font-size: 18px;   
+}
+
+
+
+.section2 .row3 .cards{
+    gap: 14.07px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: nowrap;   
+    overflow-x: auto;    
+    overflow-y: hidden;
+
+}
+
+.section2 .row3 .cards .card{
+    width: 100% ;
+    flex-shrink: 0;   
+}
+
+.section2 .row3 .card .part2 h3{
+    font-size: 20px;   
+}
+
+.section2 .row3 .card .part3 p{
+    font-size: 18px;   
+}
+
+/* ********************************************************************* */
+.section3 .container{
+    width: calc(100% - 50px) ;
+    padding-top: 77.5PX;
+    padding-bottom: 77.5px;
+}
+ 
+.section3 .row1{
+    padding-left: 15px; ;
+    padding-right: 10.84px;
+}
+
+.section3 .row1 h2{
+    font-size: 15px;
+}
+
+.section3 .row1 p{
+    font-size: 10px;
+}
+
+.section3 .row2 .cards{
+    gap: 15px;
+    padding-left:15px ;
+    padding-right: 10.84px;
+    flex-wrap: nowrap;   
+    overflow-x: auto;    
+    overflow-y: hidden;
+
+}
+
+.section3 .row2 .cards .card{
+    width: 100%;
+    flex-shrink: 0;    
+}
+.section3 .row2 .cards .card .part5 .part51{
+    gap: 7.68px;
+}
+
+.section3 .row2 .cards .card .part5 .part52{
+    gap: 3.92px;
+
+}
+
+/* ****************************************************************** */
+
+.section4 .container{
+    width: calc(100% - 70px) ;
+}
+ 
+.section4 .row1{
+    padding-bottom: 25px;
+}
+
+.section4 .row1 h2{
+    font-size: 15px;
+}
+
+.section4 .row1 p{
+    font-size: 10px;
+}
+
+.section4 .row2 .cards{
+    width: 100% ;
+    gap: 27px;
+    flex-wrap: nowrap;   
+    overflow-x: auto;    
+    overflow-y: hidden;
+
+}
+
+.section4 .row2 .cards .card{
+    background-color:#FFFFFF ;
+    width:100% ;
+    flex-shrink: 0;  
+    height:auto;    
+}
+
+.section4 .row2 .cards .card .part5{
+    display: flex;
+    padding:0 20.56px 34.75px 28.82px;
+    justify-content: space-between;
+
+}
+
+.section4 .row2 .cards .card .part5 .part51{
+    gap: 8.5px;
+
+}
+
+.section4 .row2 .cards .card .part5 .part52{
+    gap: 7.5px;
+}
+
+/* ****************************************************************** */
+
+.footer .row1{
+
+    gap: 20.885px;
+}
+
+
+.footer .row1 .part1 img{
+    width: 60.535px;
+    height: 41.5;
+
+}
+
+.footer .row1 .part2{
+    padding-left: 21.77px;
+}
+
+
+.footer .row1 .part2 h5{
+    font-size: 11px;
+}
+
+
+.footer .row2{
+    padding-bottom: 20px ;
+}
+
+
+.footer .row2 h5{
+    font-size: 13px;
+}
+
+
+.footer .row3{
+    gap: 10.5px;
+
+}
+
+
+
+.footer .row3 .part1 input{
+    width: 166.2px;
+    height: 30px;
+}
+
+.footer .row3 .part1 input::placeholder{
+    padding-left: 15.93px;
+    font-size: 10px;
+}
+
+.footer .row3 .part2 button{
+    width: 57.525px;
+    height: 30px;
+    font-size: 9px;
+}
+
+.footer .row4{
+    gap:10.62px;
+}
+
+.footer .row4 .part2{
+    padding-left: 10.62px;
+}
+
+.footer .row4 .part3{
+    padding-left: 10.62px;
+}
+   
+.footer .row4 h5{
+    font-size: 11px;
+}    
+
+
+.footer .row5 h5{
+    font-size: 11px;
+}
+}
+
+
+@media screen and (min-width:640px) and (max-width:767px){
+
+
+.header .container{
+    width: calc(100% - 60px) ;
+    margin: auto; 
+    
+}
+
+.header .profile img{ 
+    height: 31.5px;
+    width: 31.5px;
+}
+
+.header .logo img {
+    width: 57px;
+    height: 41.5px;
+} 
+
+.header .list ul{
+    gap: 30px;
+}
+/* *********************************************** */
+.section1 .container{
+    width: calc(100% - 60px) ;
+}
+.section1 .row1{
+    padding-left: 9px;
+    padding-right: 40px;
+
+}
+.section1 .row1 h2{
+    font-size: 20px;
+}
+
+.section1 .row1 p{
+    font-size: 10px;
+}
+
+.section1 .row2 .cards{
+    gap: 20px;
+    padding-left:12.5px ;
+    padding-right: 13px;
+    
+}
+
+.section1 .row2 .cards .card{
+    width: calc((100% - 40px)/3);
+}
+
+.section1 .cards .part1 img{
+    width: 100%;
+    height: 208.38px;
+    margin-bottom: 12.03px;
+    
+}
+
+/* ******************************************************************** */
+.section2 .container{
+    width: calc(100% - 70px) ;
+    height:  fit-content;
+}
+
+.section2 .container .row1 h2{
+
+    font-size: 20px
+}
+
+.section2 .row2 .cards{
+    gap: 24.07px;
+    height: 794px;
+
+}
+
+.section2 .row2 .cards .card{
+    width: calc((100% - 24.07px) / 2);
+    
+}
+
+.section2 .row2 .card .part2 h3{
+    font-size: 20px;   
+}
+
+.section2 .row2 .card .part3 p{
+    font-size: 18px;   
+}
+
+
+
+.section2 .row3 .cards{
+    gap: 24.07px;
+    height: 794px;
+}
+
+.section2 .row3 .cards .card{
+    width: calc((100% - 24.07px) / 2);
+    
+}
+
+.section2 .row3 .card .part2 h3{
+    font-size: 20px;   
+}
+
+.section2 .row3 .card .part3 p{
+    font-size: 18px;   
+}
+/* ************************************************************** */
+.section3 .container{
+    width: calc(100% - 80px) ;
+    padding-top: 87.5PX;
+    padding-bottom: 87.5px;
+}
+ 
+.section3 .row1{
+    padding-left: 25px; ;
+    padding-right: 20.84px;
+}
+
+.section3 .row1 h2{
+    font-size: 20px;
+}
+
+.section3 .row1 p{
+    font-size: 18px;
+}
+
+.section3 .row2 .cards{
+    width: 100%;
+    gap: 25px;
+    padding-left:25px ;
+    padding-right: 20.84px;
+    flex-wrap: wrap;
+
+}
+
+.section3 .row2 .cards .card{
+    width: calc(( 100% - 25px )/2); 
+}
+
+.section3 .row2 .cards .card .part5 .part51{
+    gap: 7.68px;
+}
+
+.section3 .row2 .cards .card .part5 .part52{
+    gap: 3.92px;
+
+}
+
+
+/* ****************************************************************** */
+
+.section4 .container{
+    width: calc(100% - 100px) ;
+}
+ 
+.section4 .row1{
+    padding-bottom: 25px;
+}
+
+.section4 .row1 h2{
+    font-size: 20px;
+}
+
+.section4 .row1 p{
+    font-size: 18px;
+}
+
+.section4 .row2 .cards{
+    width: 100% ;
+    gap: 37px;
+
+}
+
+.section4 .row2 .cards .card{
+    width:calc((100% - 37px)/2) ;   
+}
+
+
+.section4 .row2 .cards .card .part5 .part51{
+    gap: 7.68px;
+
+}
+
+.section4 .row2 .cards .card .part5 .part52{
+    gap: 3.92px;
+}
+
+/* ****************************************************************** */
+
+.footer .row1{
+
+    gap: 40.885px;
+}
+
+
+.footer .row1 .part1 img{
+    width: 80.535px;
+    height: 51.5;
+
+}
+
+.footer .row1 .part2{
+    padding-left: 31.77px;
+}
+
+
+.footer .row1 .part2 h5{
+    font-size: 16px;
+}
+
+
+.footer .row2 h5{
+    font-size: 16px;
+}
+
+
+.footer .row3{
+    gap: 15.5px;
+
+}
+
+.footer .row3 .part1 input{
+    width: 200.2px;
+    height: 40px;
+}
+
+.footer .row3 .part1 input::placeholder{
+    padding-left: 15.93px;
+    font-size: 11px;
+}
+
+.footer .row3 .part2 button{
+    width: 77.525px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.footer .row4{
+    gap:13.62px;
+}
+
+
+.footer .row4 .part2{
+    padding-left: 13.62px;
+}
+
+.footer .row4 .part3{
+    padding-left: 13.62px;
+}
+   
+.footer .row4 h5{
+    font-size: 16px;
+}    
+
+
+.footer .row5 h5{
+    font-size: 16px;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+.header .container{
+    width: calc(100% - 100px) ;
+    margin: auto; 
+    
+}
+
+.header .profile img{ 
+    height: 51.5px;
+    width: 51.5px;
+}
+
+.header .logo img {
+    width: 87px;
+    height: 71.5px;
+} 
+
+.header .list ul{
+    gap: 50px;
+}
+/* *************************************** */
+.section1 .container{
+    width: calc(100% - 100px) ;
+}
+.section1 .row1{
+    padding-left: 12px;
+    padding-right: 50px;
+
+}
+.section1 .row1 h2{
+    font-size: 23px;
+}
+
+.section1 .row1 p{
+    font-size: 13px;
+}
+
+.section1 .row2 .cards{
+    gap: 30px;
+    padding-left:22.5px ;
+    padding-right: 23px;
+    
+}
+
+.section1 .row2 .cards .card{
+    width: calc((100% - 60px)/3);
+}
+
+.section1 .cards .part1 img{
+    width: 100%;
+    height: 208.38px;
+    margin-bottom: 12.03px;
+    
+}
+
+/* ************************************************** */
+.section2 .container{
+    width: calc(100% - 110px) ;
+    height:  fit-content;
+}
+
+.section2 .container .row1 h2{
+
+    font-size: 23px
+}
+
+.section2 .row2 .cards{
+    gap: 34.07px;
+    height: 794px;
+
+
+}
+
+.section2 .row2 .cards .card{
+    min-width: calc((100% - 34.07px) / 2);
+}
+
+.section2 .row2 .card .part2 h3{
+    font-size: 23px;   
+}
+
+.section2 .row2 .card .part3 p{
+    font-size: 18px;   
+}
+
+
+
+.section2 .row3 .cards{
+    gap: 34.07px;
+    height: 794px;
+}
+
+.section2 .row3 .cards .card{
+   min-width: calc((100% - 34.07px) / 2);
+    
+}
+
+.section2 .row3 .card .part2 h3{
+    font-size: 23px;   
+}
+
+.section2 .row3 .card .part3 p{
+    font-size: 18px;   
+}
+
+/* ********************************************************************* */
+.section3 .container{
+    width: calc(100% - 120px) ;
+    padding-top: 97.5PX;
+    padding-bottom: 97.5px;
+}
+ 
+.section3 .row1{
+    padding-left: 25px; ;
+    padding-right: 20.84px;
+}
+
+.section3 .row1 h2{
+    font-size: 23px;
+}
+
+.section3 .row1 p{
+    font-size: 18px;
+}
+
+.section3 .row2 .cards{
+    width: 100%;
+    gap: 35px;
+    padding-left:25px ;
+    padding-right: 20.84px;
+    flex-wrap: wrap;
+
+}
+
+.section3 .row2 .cards .card{
+    width: calc(( 100% - 35px )/2); 
+}
+
+.section3 .row2 .cards .card .part5 .part51{
+    gap: 15.68px;
+}
+
+.section3 .row2 .cards .card .part5 .part52{
+    gap: 8.92px;
+}
+
+/* ****************************************************************** */
+
+.section4 .container{
+    width: calc(100% - 140px) ;
+}
+ 
+.section4 .row1{
+    padding-bottom: 25px;
+}
+
+.section4 .row1 h2{
+    font-size: 20px;
+}
+
+.section4 .row1 p{
+    font-size: 18px;
+}
+
+.section4 .row2 .cards{
+    width: 100% ;
+    gap: 37px;
+
+}
+
+.section4 .row2 .cards .card{
+    width:calc((100% - 37px)/2) ;   
+}
+
+
+.section4 .row2 .cards .card .part5 .part51{
+    gap: 7.68px;
+
+}
+
+.section4 .row2 .cards .card .part5 .part52{
+    gap: 3.92px;
+}
+
+/* ****************************************************************** */
+
+.footer .row1{
+
+    gap: 40.885px;
+}
+
+
+.footer .row1 .part1 img{
+    width: 80.535px;
+    height: 51.5;
+
+}
+
+.footer .row1 .part2{
+    padding-left: 31.77px;
+}
+
+
+.footer .row1 .part2 h5{
+    font-size: 16px;
+}
+
+
+.footer .row2 h5{
+    font-size: 16px;
+}
+
+
+.footer .row3{
+    gap: 15.5px;
+
+}
+
+.footer .row3 .part1 input{
+    width: 200.2px;
+    height: 40px;
+}
+
+.footer .row3 .part1 input::placeholder{
+    padding-left: 15.93px;
+    font-size: 11px;
+}
+
+.footer .row3 .part2 button{
+    width: 77.525px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.footer .row4{
+    gap:13.62px;
+}
+
+
+.footer .row4 .part2{
+    padding-left: 13.62px;
+}
+
+.footer .row4 .part3{
+    padding-left: 13.62px;
+}
+   
+.footer .row4 h5{
+    font-size: 16px;
+}    
+
+
+.footer .row5 h5{
+    font-size: 16px;
+}
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px){
+
+ .header .container{
+    width: calc(100% - 160px) ;
+    margin: auto; 
+    
+}
+
+.profile img{ 
+    height: 61.5px;
+    width: 61.5px;
+}
+
+.header .logo img {
+    width: 87px;
+    height: 71.5px;
+} 
+
+.header .list ul{
+    gap: 65px;
+}
+/* ******************************************************** */
+.section1 .container{
+    width: calc(100% - 160px) ;
+}
+.section1 .row1{
+    padding-left: 16px;
+    padding-right: 60px;
+
+}
+.section1 .row1 h2{
+    font-size: 30px;
+}
+
+.section1 .row1 p{
+    font-size: 16px;
+}
+
+.section1 .row2 .cards{
+    gap: 30px;
+    padding-left:22.5px ;
+    padding-right: 23px;
+    
+}
+
+.section1 .row2 .cards .card{
+    width: calc((100% - 60px)/3);
+}
+
+.section1 .cards .part1 img{
+    width: 100%;
+    height: 238.38px;
+    margin-bottom: 12.03px;
+    
+}
+
+/* ******************************************************* */
+.section2 .container{
+    width: calc(100% - 170px) ;
+    height:  fit-content;
+}
+
+.section2 .container .row1 h2{
+
+    font-size: 30px
+}
+
+
+.section2 .row2 .cards{
+    gap: 34.07px;
+    height: 794px;
+    
+
+}
+
+.section2 .row2 .cards .card{
+    width: calc((100% - 68.14px) / 3);
+
+    
+}
+
+.section2 .row2 .card .part2 h3{
+    font-size: 23px;   
+}
+
+
+
+.section2 .row2 .card .part3 p{
+    font-size: 16px;   
+}
+
+
+.section2 .row3 .cards{
+    gap: 34.07px;
+    height: 794px;
+}
+
+.section2 .row3 .cards .card{
+    width: calc((100% - 68.14px) / 3);
+    
+}
+
+.section2 .row3 .card .part2 h3{
+    font-size: 23px;   
+}
+
+.section2 .row3 .card .part3 p{
+    font-size: 18px;   
+}
+/* ************************************************************ */
+
+.section3 .container{
+    width: calc(100% - 120px) ;
+    padding-top: 107.5PX;
+    padding-bottom: 107.5px;
+}
+ 
+.section3 .row1{
+    padding-left: 50px; ;
+    padding-right: 39.84px;
+}
+
+.section3 .row1 h2{
+    font-size: 30px;
+}
+
+.section3 .row1 p{
+    font-size: 18px;
+}
+
+.section3 .row2 .cards{
+    width: 100%;
+    gap: 35px;
+    padding-left:50px ;
+    padding-right: 39.84px;
+    flex-wrap: wrap;
+
+}
+
+.section3 .row2 .cards .card{
+    width: calc(( 100% - 70px )/3); 
+}
+
+.section3 .row2 .cards .card .part5 .part51{
+    gap: 15.68px;
+}
+
+.section3 .row2 .cards .card .part5 .part52{
+    gap: 8.92px;
+}
+/* ************************************************************** */
+.section4 .container{
+    width: calc(100% - 140px) ;
+}
+ 
+.section4 .row1{
+    padding-bottom: 25px;
+}
+
+.section4 .row1 h2{
+    font-size: 20px;
+}
+
+.section4 .row1 p{
+    font-size: 18px;
+}
+
+.section4 .row2 .cards{
+    width: 100% ;
+    gap: 37px;
+
+}
+
+.section4 .row2 .cards .card{
+    width:calc((100% - 74px)/3) ;   
+}
+
+
+.section4 .row2 .cards .card .part5 .part51{
+    gap: 15.68px;
+
+}
+
+.section4 .row2 .cards .card .part5 .part52{
+    gap: 8.92px;
+}
+
+/* ****************************************************************** */
+
+.footer .row1{
+
+    gap: 60.885px;
+}
+
+
+.footer .row1 .part1 img{
+    width: 100.535px;
+    height: 61.5;
+
+}
+
+.footer .row1 .part2{
+    padding-left: 39.77px;
+}
+
+
+.footer .row1 .part2 h5{
+    font-size: 20px;
+}
+
+
+.footer .row2 h5{
+    font-size: 24px;
+}
+
+
+.footer .row3{
+    gap: 19.5px;
+
+}
+
+.footer .row3 .part1 input{
+    width: 300.2px;
+    height: 50px;
+}
+
+.footer .row3 .part1 input::placeholder{
+    padding-left: 20.93px;
+    font-size: 16px;
+}
+
+.footer .row3 .part2 button{
+    width: 100.525px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.footer .row4{
+    gap:16.62px;
+}
+
+
+.footer .row4 .part2{
+    padding-left: 16.62px;
+}
+
+.footer .row4 .part3{
+    padding-left: 16.62px;
+}
+   
+.footer .row4 h5{
+    font-size: 20px;
+}    
+
+
+.footer .row5 h5{
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width:1280px) and (max-width:1536px){
+
+.section1 .container{
+    width: calc(100% - 200px) ;
+    height: 785px;
+    padding-top: 52px;
+    margin-bottom: 82px;
+}
+ 
+.section1 .row1{
+    width: 100%;
+    padding-left: 18px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+}
+
+.section1 .row1 h2{
+    font-size: 36px;
+}
+
+.section1 .row1 p{
+    font-size: 20px;
+}
+
+.section1 .row2 .cards{
+    width: 100% ;
+    height: 474px;
+    gap: 25px;
+    padding-left:32.5px ;
+    padding-right: 33px;
+    overflow: auto;
+}
+
+.section1 .row2 .cards .card{
+    width: calc((100% - 50px) / 3);
+    height: 474px;
+    padding: 19.6px 21px 12px 20.73px;
+    
+}
+
+.section1 .cards .part1 img{
+    width: 100%;
+    height: 258.38px;
+    margin-bottom: 12.03px;
+    
+}
+
+
+.section1 .cards .part2{
+   gap: 12px; 
+   margin-top: 10px;
+   margin-bottom: 25px;
+}
+
+.section1 .cards .part2 img{
+   width: 42px;
+   height: 42px;
+}
+
+.section1 .cards .part3 .rec1{
+    width:100%;
+    height: 8px;
+
+}
+
+.section1 .cards .part3 .rec2{
+    width:71.4%;
+    height: 8px;
+}
+
+.section1 .cards .part3{
+    margin-bottom: 12px;
+}
+
+
+  
+/* }****************************************************************** */
+
+.section3 .container{
+    width: calc(100% - 120px) ;
+    padding-top: 107.5PX;
+    padding-bottom: 107.5px;
+}
+ 
+.section3 .row1{
+    padding-left: 50px; ;
+    padding-right: 39.84px;
+}
+
+.section3 .row1 h2{
+    font-size: 30px;
+}
+
+.section3 .row1 p{
+    font-size: 18px;
+}
+
+.section3 .row2 .cards{
+    width: 100%;
+    gap: 35px;
+    padding-left:50px ;
+    padding-right: 39.84px;
+    flex-wrap: wrap;
+
+}
+
+.section3 .row2 .cards .card{
+    width: calc(( 100% - 105px )/4); 
+}
+
+.section3 .row2 .cards .card .part5 .part51{
+    gap: 15.68px;
+}
+
+.section3 .row2 .cards .card .part5 .part52{
+    gap: 8.92px;
+}
+
+/* *************************************************** */
+.section4 .container{
+    width: calc(100% - 140px) ;
+}
+ 
+.section4 .row1{
+    padding-bottom: 25px;
+}
+
+.section4 .row1 h2{
+    font-size: 20px;
+}
+
+.section4 .row1 p{
+    font-size: 18px;
+}
+
+.section4 .row2 .cards{
+    width: 100% ;
+    gap: 37px;
+
+}
+
+.section4 .row2 .cards .card{
+    width:calc((100% - 111px)/4) ;   
+}
+
+
+.section4 .row2 .cards .card .part5 .part51{
+    gap: 15.68px;
+
+}
+
+.section4 .row2 .cards .card .part5 .part52{
+    gap: 8.92px;
+}
+
+}
+
+
+
+@media screen and (max-width: 639px) {
+    body {
+        background-color: red !important;
+    }
+}
